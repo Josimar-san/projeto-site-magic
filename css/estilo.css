@@ -41,6 +41,8 @@ body>header{
 .nossosJogos{
     background-image: url('../img/bg-nossos-jogos.jpg');
     padding: 100px;
+    text-align: center;
+    
 }
 
 .artigos{
@@ -48,6 +50,7 @@ body>header{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    text-align: center;
     
 
 }
