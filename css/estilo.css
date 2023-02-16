@@ -35,6 +35,45 @@ body>header{
 
 .banner img{
     width: 100%;
+    position: relative;
+
+}
+
+
+.container_titulo {
+    width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    display: flex; /* define o elemento como um container flex */
+    flex-direction:column; /* define a direção de distribuição dos elementos como coluna */
+    justify-content: center; /* alinha os elementos no centro verticalmente */
+    align-items: center; /* alinha os elementos no centro horizontalmente */
+
+}
+
+
+.container_titulo h1 {
+  color: white; /* define a cor do texto como branco */
+  text-transform: uppercase; /* transforma o texto para caixa alta */
+  text-align: center; /* alinha o texto centralizado */
+  margin-bottom: 15px; /* define a margem inferior  */
+}
+  
+.reserve-agora button {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #C86C2D;
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  
 
 }
 
@@ -43,6 +82,11 @@ body>header{
     padding: 100px;
     text-align: center;
     
+}
+
+.nossosJogos h1 {
+    padding: 20px;
+
 }
 
 .artigos{
@@ -54,3 +98,17 @@ body>header{
     
 
 }
+
+.articles {
+    width: 100%;
+   
+    
+}
+
+.container-articles {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+
